@@ -18,6 +18,10 @@ const Vehicle = sequelize.define('Vehicle', {
   cor: {
     type: DataTypes.STRING,
     allowNull: true,  // Se for opcional
+  },
+  proprietario: {   // Adicionando a nova coluna
+    type: DataTypes.STRING,
+    allowNull: true,
   }
 });
 
